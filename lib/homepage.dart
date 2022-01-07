@@ -125,7 +125,9 @@ class _HomePageState extends State<HomePage> {
               child: Row(
                 children: [
                   SingleProduct(
-                      imageName: image1, productName: 'Mango', onTap: () {}),
+                      imageName: image1, productName: 'Mango', onTap: () {
+                        Navigator.pushNamed(context, '/productoverview');
+                  }),
                   SingleProduct(
                       imageName: image2, productName: 'Banana', onTap: () {}),
                   SingleProduct(

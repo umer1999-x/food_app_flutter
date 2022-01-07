@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'sign_in.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'homepage.dart';
+import'product_overview.dart';
+
+
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -20,6 +23,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => const SignIn(),
         // When navigating to the "/second" route, build the SecondScreen widget.
         '/second': (context) => const HomePage(),
+        '/productoverview':(context)=> const ProductOverView(),
       },
     );
   }

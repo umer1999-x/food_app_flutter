@@ -36,13 +36,13 @@ class SingleProduct extends StatelessWidget {
                       children: [
                         Text(
                           productName!,
-                          style: TextStyle(
+                          style: const TextStyle(
                             fontSize: 20,
                             color: Colors.black,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
-                        Text(
+                        const Text(
                           '50\$/50 Gram',
                           style: TextStyle(
                             color: Colors.grey,
