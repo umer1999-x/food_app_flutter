@@ -27,7 +27,9 @@ class SingleProduct extends StatelessWidget {
                     flex: 2,
                     child: Image(
                       image: NetworkImage(
-                        imageName!
+                        imageName!,
+                        scale: 2.5,
+
                       ),
                     ),
                   ),
